@@ -117,11 +117,12 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button
-                  size="lg"
+                  asChild
                   className="bg-sky-400 hover:bg-sky-500 text-white"
                 >
-                  Hire me
+                  <Link href="#contact">Hire me</Link>
                 </Button>
+
                 <div className="hidden md:flex items-center gap-6 ml-4">
                   <Link
                     href="https://www.linkedin.com/in/rowel-b-767254188/"
@@ -286,7 +287,9 @@ export default function Home() {
                     </div>
                   </div>
                   <Button variant="ghost" size="sm" asChild>
-                    <Link href="#">View Project</Link>
+                    <Link href="https://ascendlogix.ca" target="_blank">
+                      View Project
+                    </Link>
                   </Button>
                 </CardFooter>
               </Card>
