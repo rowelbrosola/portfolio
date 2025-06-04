@@ -37,10 +37,10 @@ export default function ResumePage() {
           <p className="text-sm leading-relaxed">
             Dynamic <span className="font-semibold">Full Stack Developer</span>{" "}
             with <span className="font-semibold">8 years of experience</span>{" "}
-            building high-performance, scalable web applications that elevate
-            user experience. Specialized in{" "}
+            scalable APIs and backend solutions. Strong leadership background
+            mentoring teams and driving best practices. Expert in{" "}
             <span className="font-semibold">
-              React.js, Next.js, and TypeScript
+              Laravel, PHP, React.js, Next.js, and TypeScript
             </span>{" "}
             with deep expertise in{" "}
             <span className="font-semibold">
@@ -89,6 +89,12 @@ export default function ResumePage() {
               </div>
               <ul className="list-disc pl-5 text-sm space-y-2">
                 <li>
+                  Led backend API design and implementation using{" "}
+                  <span className="font-semibold">Laravel/PHP</span>, enabling
+                  real-time order processing and audit logs that improved
+                  operational tracking by 60%.
+                </li>
+                <li>
                   Led the frontend development using{" "}
                   <span className="font-semibold">React.js</span> to create
                   dynamic, component-based interfaces aligned with business
@@ -101,14 +107,12 @@ export default function ResumePage() {
                   devices.
                 </li>
                 <li>
-                  Created a <span className="font-semibold">RESTful API</span>{" "}
-                  to support frontend features and enable integration with
-                  internal and third-party applications.
+                  Collaborated with DevOps to improve CI/CD pipelines, reducing
+                  deployment time by 70%.
                 </li>
                 <li>
-                  Implemented security features and real-time order processing
-                  in a <span className="font-semibold">PHP backend</span>,
-                  integrated cleanly with the React frontend.
+                  Mentored junior developers on Laravel best practices, code
+                  quality, and secure coding standards.
                 </li>
               </ul>
             </CardContent>
@@ -137,20 +141,17 @@ export default function ResumePage() {
               </div>
               <ul className="list-disc pl-5 text-sm space-y-2">
                 <li>
-                  Built a custom{" "}
-                  <span className="font-semibold">UI component library</span> in
-                  React to promote consistency and speed up development across
-                  teams.
+                  Designed and built a reusable React component library using
+                  hooks and Context API, reducing development time across teams
+                  by 25%
                 </li>
                 <li>
-                  Developed reusable and optimized components with hooks and
-                  context API, reducing code redundancy and improving
-                  scalability.
+                  Worked closely with backend teams to ensure robust API
+                  integration and data validation
                 </li>
                 <li>
-                  Collaborated closely with backend developers and designers to
-                  ensure seamless API integration and pixel-perfect
-                  implementation.
+                  Optimized frontend performance to improve load times and user
+                  experience on mobile and desktop platforms
                 </li>
               </ul>
             </CardContent>
@@ -185,9 +186,8 @@ export default function ResumePage() {
                   <span className="font-semibold">REST APIs</span>.
                 </li>
                 <li>
-                  Collaborated with cross-functional teams to deliver
-                  high-quality software aligned with client expectations and
-                  timelines.
+                  Conducted thorough code reviews and enforced best practices,
+                  improving code quality and reducing bugs by 15%
                 </li>
                 <li>
                   Conducted <span className="font-semibold">code reviews</span>,
@@ -324,6 +324,7 @@ export default function ResumePage() {
             <h3 className="font-medium mb-2">Backend</h3>
             <div className="flex flex-wrap gap-2">
               <Badge variant="outline">PHP</Badge>
+              <Badge variant="outline">Laravel</Badge>
               <Badge variant="outline">PostgreSQL</Badge>
               <Badge variant="outline">MySQL</Badge>
             </div>
@@ -331,8 +332,20 @@ export default function ResumePage() {
           <div>
             <h3 className="font-medium mb-2">Testing</h3>
             <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">PHP Unit</Badge>
               <Badge variant="outline">Jest</Badge>
               <Badge variant="outline">React Testing Library</Badge>
+            </div>
+          </div>
+          <div>
+            <h3 className="font-medium mb-2">Cloud & DevOps</h3>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">DigitalOcean</Badge>
+              <Badge variant="outline">Docker</Badge>
+              <Badge variant="outline">
+                CI/CD pipelines (GitHub Actions),{" "}
+              </Badge>
+              <Badge variant="outline">Linux basics</Badge>
             </div>
           </div>
           <div>
